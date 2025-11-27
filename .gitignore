@@ -1,0 +1,118 @@
+# ============================================================
+# GLOBAL
+# ============================================================
+
+.DS_Store
+
+.env
+.env.*
+*.env
+
+*.log
+logs/
+npm-debug.log*
+
+node_modules/
+dist/
+build/
+
+# Ignore all local virtual environments
+venv/
+.env/
+.venv/
+
+# Ignore OS temporary files
+Thumbs.db
+*.tmp
+*.temp
+
+
+# ============================================================
+# NESTJS (apps/api-nestjs)
+# ============================================================
+
+apps/api/node_modules/
+apps/api/dist/
+apps/api/.env
+apps/api/*.log
+
+
+# ============================================================
+# NEXT.JS (apps/web-nextjs)
+# ============================================================
+
+apps/web-nextjs/node_modules/
+apps/web-nextjs/.next/
+apps/web-nextjs/.env
+apps/web-nextjs/out/
+apps/web-nextjs/npm-debug.log*
+
+
+# ============================================================
+# PYTHON (apps/ml-engine-python)
+# ============================================================
+
+apps/ml-engine-python/__pycache__/
+apps/ml-engine-python/.pytest_cache/
+apps/ml-engine-python/*.pyc
+apps/ml-engine-python/*.pyo
+apps/ml-engine-python/*.pyd
+apps/ml-engine-python/.env
+apps/ml-engine-python/venv/
+apps/ml-engine-python/.ipynb_checkpoints
+
+
+# ============================================================
+# GO CLIENT (apps/client-go)
+# ============================================================
+
+apps/client-go/bin/
+apps/client-go/build/
+apps/client-go/coverage.out
+
+# go modules
+apps/client-go/go.sum
+# (optional) if you want reproducible builds, REMOVE the line above
+
+# go cache
+*.exe
+*.dll
+*.so
+*.dylib
+
+
+# ============================================================
+# DOCKER
+# ============================================================
+
+docker/*.log
+docker/.env
+docker/data/
+docker/tmp/
+docker-compose.override.yml
+
+
+# ============================================================
+# EDITOR / IDE FILES
+# ============================================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# JetBrains
+**/.idea/
+**/.iml
+
+# VS Code
+apps/**/.vscode/
+
+
+# ============================================================
+# SYSTEM
+# ============================================================
+
+coverage/
+tmp/
+temp/
