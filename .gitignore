@@ -52,14 +52,14 @@ apps/web-nextjs/npm-debug.log*
 # PYTHON (apps/ml-engine-python)
 # ============================================================
 
-apps/ml-engine-python/__pycache__/
-apps/ml-engine-python/.pytest_cache/
-apps/ml-engine-python/*.pyc
-apps/ml-engine-python/*.pyo
-apps/ml-engine-python/*.pyd
-apps/ml-engine-python/.env
-apps/ml-engine-python/venv/
-apps/ml-engine-python/.ipynb_checkpoints
+apps/ml-engine/__pycache__/
+apps/ml-engine/.pytest_cache/
+apps/ml-engine/*.pyc
+apps/ml-engine/*.pyo
+apps/ml-engine/*.pyd
+apps/ml-engine/.env
+apps/ml-engine/venv/
+apps/ml-engine/.ipynb_checkpoints
 
 
 # ============================================================
